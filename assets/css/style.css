@@ -150,13 +150,13 @@ nav{
 }
 
 #how_works img{
-  height: 600px;
+  height: 550px;
   margin-top: 300px;
   width: 300px;
   /* z-index: 2; */
   position: absolute;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -120%);
 }
 
 .box_how_works{
@@ -165,6 +165,10 @@ nav{
 }
 
 /* SMART MOBILITY */
+
+#smart_mob{
+  margin-top: 90px;
+}
 
 #smart_mob .container{
   background-image: url("../img/scooter.jpg");
