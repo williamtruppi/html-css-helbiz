@@ -239,7 +239,12 @@ footer{
   color: white;
 }
 
+
 /* footer_links */
+
+#footer_links{
+  padding: 50px 0 20px 0;
+}
 
 #footer_links a{
   text-decoration: none;
@@ -255,6 +260,12 @@ footer{
   border-top: 1px solid white;
   border-bottom: 1px solid white;
   padding: 20px 0;
+}
+
+#footer_social a{
+  color: white;
+  margin-right: 5px;
+  font-size: 20px;
 }
 
 #footer_downloads{
