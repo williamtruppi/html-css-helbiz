@@ -6,10 +6,16 @@ body{
   position: relative;
 }
 
+/* classi utility */
+
+.mrg_top_down_20{
+  margin: 20px 0;
+}
+
 /* header */
 
 header{
-  height: 550px;
+  height: 650px;
   background-image: url("../img/banner.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -17,7 +23,7 @@ header{
 }
 
 .overlay{
-  background-color: rgba(255, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   width: 100%;
   height: 100%;
 }
@@ -25,24 +31,39 @@ header{
 nav{
   height: 80px;
   line-height: 80px;
-  /* color: white; */
+  color: white;
 }
 
+.header_logo img{
+  color: white;
+  width: 100px;
+}
+
+.header_menu{
+  padding-right: 80px;
+}
 
 .header_menu ul li, .header_langs ul li{
   display: inline-block;
   list-style: none;
-  margin: 0 10px;
+  margin: 0 20px;
 }
 
-.header_langs a:nth-child(2){
+.header_langs ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 0 5px;
+}
+
+.header_langs li:nth-child(2) a{
+  padding: 0 5px;
   border-left: 1px solid white;
   border-right: 1px solid white;
 }
 
 .header_menu a, .header_langs a{
   text-decoration: none;
-  /* color: white; */
+  color: white;
 }
 
 #btn_black{
@@ -50,9 +71,13 @@ nav{
   background-color: black;
 }
 
-.header_menu, .header_langs{
+.header_menu{
   font-size: 13px;
   text-align: right;
+}
+
+.header_langs{
+  font-size: 13px;
 }
 
 .hero_text{
@@ -60,4 +85,16 @@ nav{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+.hero_text h1{
+  font-size: 45px;
+}
+
+.hero_text img{
+  width: 200px;
+  display: inline-block;
+  margin-right: 10px;
 }
