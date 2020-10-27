@@ -59,8 +59,6 @@ nav{
 }
 
 .header_langs ul li{
-  display: inline-block;
-  list-style: none;
   margin: 0 5px;
 }
 
@@ -278,7 +276,7 @@ footer{
 
 @media screen and (max-width: 768px){
 
-  *{
+  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -294,8 +292,9 @@ footer{
   }
 
   .header_logo h3::after {
-    content: '\2630' ;
+    content: '\2630';
     float: right;
+    font-size: 40px;
   }
 
   .top_banner{
@@ -309,6 +308,7 @@ footer{
   .box_models img:last-of-type{
     height: 300px;
     display: inline-block;
+    font-size: 20px;
   }
 
   #footer_social, #footer_links{
