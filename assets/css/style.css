@@ -274,9 +274,9 @@ footer{
   height: 50px;
 }
 
-@media screen and (max-width: 768px){
+@media all and (max-width: 768px){
 
-  * {
+  *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -303,6 +303,10 @@ footer{
 
   .header_menu, .header_langs{
     display: none;
+  }
+
+  .padd_right_20, .padd_left_20{
+    padding: 0;
   }
 
   .box_models img:last-of-type{
